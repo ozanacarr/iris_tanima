@@ -1,0 +1,24 @@
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal Ortam (Virtual Environment) klasörü - Kesinlikle yüklenmemeli
+venv/
+.venv/
+env/
+
+# Geliştirici ortamı ve IDE ayarları
+.vscode/
+.idea/
+
+# İşletim sistemi kalıntıları
+Thumbs.db
+.DS_Store
+
+# Test amaçlı kullanılan yerel görseller (isteğe bağlı)
+*.jpg
+*.jpeg
+*.png
+!README.md  # Eğer README içinde görsel kullanacaksan onu engelleme
